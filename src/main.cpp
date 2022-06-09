@@ -46,10 +46,10 @@ int main(int argc, char *argv[])
 	sdl_window = SDL_CreateWindow(
 		"(F11: fullscreen F10: winresize ESC: quit)",
 		SDL_WINDOWPOS_UNDEFINED,
-		SDL_WINDOWPOS_UNDEFINED
+		SDL_WINDOWPOS_UNDEFINED,
 		win_width,									  // width, in pixels
 		win_height,									  // height, in pixels
-		window_flag
+		window_flags
 	);
 
 	// Check that the window was successfully created
